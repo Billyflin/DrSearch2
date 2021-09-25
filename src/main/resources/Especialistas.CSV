@@ -1,0 +1,6 @@
+ID,Nombre,Especialista,Fonasa,Isapres
+0,Liliana Hernandez,Médico General,true,false
+1,Marcos Muñoz,Pediatra,false,true
+2,Carla Quezada,Kinesiologa,true,false
+3,Axel Paredes,Dentista,false,true
+4,Felipe Sandoval,Cirujano,true,false
