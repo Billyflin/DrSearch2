@@ -1,3 +1,5 @@
+import org.apache.commons.text.WordUtils;
+
 import java.util.ArrayList;
 
 public class Especialista {
@@ -10,7 +12,7 @@ public class Especialista {
 
     public Especialista(int id, String nombre, String especialidad, boolean fonasa, boolean isapre) {
         this.id = id;
-        this.nombre = nombre;
+        this.nombre = WordUtils.capitalize(nombre);
         this.especialidad = especialidad;
         this.fonasa = fonasa;
         this.isapre = isapre;

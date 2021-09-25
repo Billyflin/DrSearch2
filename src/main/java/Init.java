@@ -151,7 +151,7 @@ public class Init {
                 String especialista = nextLine[3];
                 String fecha =nextLine[4];
                 String fecha2 =nextLine[5];
-                Paciente.pacientes.add(new Paciente( nombre,  apellido, rut, especialista,  fecha, fecha2));
+                Paciente.pacientes.add(new Paciente(nombre,apellido,rut,especialista,fecha,fecha2));
             }
         } catch (Exception e) {
             System.out.println("Error" + e);
